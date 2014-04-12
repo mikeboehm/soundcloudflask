@@ -31,3 +31,6 @@ Future Development
 * Playlists
 * Smart playlists
 * Improved "incoming" stream, with recommendations
+
+
+Media control icons from: http://www.flaticon.com/

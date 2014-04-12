@@ -25,20 +25,6 @@ $(document).ready(function(){
 		embed_url = $(this).attr('data-embed')
 		$.get('/vlc?track=' + embed_url);
 	});
-	
-	$('.control-play').click(function(){
-		if(embed_url = $(this).attr('data-embed')) {
-				
-		} else {
-			embed_url = '';
-		}
-		$.get('/vlc?track=' + embed_url);
-	});
-
-	$('.control-stop').click(function(){
-		$.get('/stop_vlc');
-	});
-
 
 	var users = new Array()
 	$('.user').each(function(){

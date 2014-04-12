@@ -1,0 +1,30 @@
+.player {
+	font-size: 75%;
+	border: 1px solid #e7e7e7;
+	padding: 1em;
+	margin: 1em;
+	border-radius: 7px;
+}
+
+.player img {
+	height:50px;
+	width: 50px;
+	fill: #e7e7e7;
+}
+
+.control-previous{
+	background-color: #e7e7e7;
+	display: inline-block;
+}
+
+.control-play{	
+
+}
+
+.control-pause{
+}
+
+.control-next {
+	background-color: #e7e7e7;
+	display: inline-block;	
+}
