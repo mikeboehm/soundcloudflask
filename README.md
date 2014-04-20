@@ -11,6 +11,8 @@ Requirements
 * [A Python wrapper](https://github.com/soundcloud/soundcloud-python) for the Soundcloud API
 * A [Soundcloud](https://developers.soundcloud.com/) account and API Key
 * [VLC](http://www.videolan.org/vlc/index.html)
+* [MongoDB] (mongodb.org)
+* [pymongo](http://api.mongodb.org/python/current/installation.html)
 
 Setup
 -----
