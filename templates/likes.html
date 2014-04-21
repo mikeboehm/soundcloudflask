@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+	{% include "blocks/player.html" %}
+	{{track_obj.title}}
+	<table>
+		<thead>
+			<tr>
+				<th><a href="?sort=artist">Artist</a></th>
+				<th><a href="?sort=title">Title!</a></th>
+  			</tr>
+		</thead>
+		<tbody>	
+			{% for track in fav.tracks %}
+				<tr>
+					<td width="50%">{{ track.user }}</td>
+					<td width="50%">{{ track['title'] }}</td>
+				</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+{% endblock %}

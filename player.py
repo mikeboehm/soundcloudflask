@@ -3,13 +3,13 @@
 	# @todo merge vlc_player into this
 '''
 
-from track import track
+from track import Track
 from vlc_player import vlcPlayer
 from connection_manager import connectionManager
 class player(object):
 	def __init__(self):
 		# @todo Use track object to manage current track, such as title
-# 		self.track = track()
+# 		self.track = Track()
 # 		self.track.test()
 		self.track = '';
 		self.vlc_player = vlcPlayer()
@@ -34,3 +34,6 @@ class player(object):
 		
 	def stop(self):
 		self.vlc_player.stop()
+	
+	def track(self):
+		return 'username=g.user.username, email=g.user.email, id=g.user.id'
