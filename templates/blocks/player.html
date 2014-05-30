@@ -1,13 +1,8 @@
 {% block player %}
 	<div class="player">
-<!-- 		<img src="{{ url_for('static', filename='icons/stop23.svg') }}" alt="Stope"> -->
 		<h1>Now playing: {{ now_playing }}</h1>
-		<a class="control-previous" href="#"><img src="{{ url_for('static', filename='icons/beginning1.svg') }}" alt="Previous"></a>
-		<a class="control-pause" 	href="#"><img src="{{ url_for('static', filename='icons/pause18.svg') }}" alt="Pause"></a>
-		<a class="control-play" 	href="#"><img src="{{ url_for('static', filename='icons/media23.svg') }}" alt="Play"></a>
-		<a class="control-next" 	href="#"><img src="{{ url_for('static', filename='icons/media25.svg') }}" alt="Next"></a>
-		
-		<br>
-		<a href="#" class="control-update">update</a>
+		<a href="#" class="control-stop"></a>
+		<a href="#" class="control-pause"></a>
+		<a href="#" class="control-play"></a>
 	</div>
 {% endblock %}
